@@ -32,3 +32,10 @@ print("The average of the scores is:",x/counter)
 
 # Problem 7.4
 
+x = input("Please input a word:")
+x = list(x)
+if x == x[len(x)::-1]:
+  print("True")
+else:
+  print("False")
+    
